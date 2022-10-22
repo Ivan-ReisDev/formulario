@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário - Teste HTML e CSS</title>
+</head>
+
+<body>
+    <div class="gradiente">
+    <div class="box-principal text-center">
+        <div class="texto">
+            <h1>Contato</h1>
+            <p>Envie-nos um e-mail com quaisquer perguntas ou dúvidas ou use nossos dados de contato.</p>
+        </div>
+        <form action="POST">
+            <div class="box-principal-linha">
+                <div class="box-principal-unico">
+                    <label for="email" id="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <div class="box-principal-unico box-principal-unico-segundo">
+                    <label for="name" id="name">Nome</label>
+                    <input type="text" name="name" id="text" placeholder="Digite seu Nome" required>
+                </div>
+            </div>
+
+            <div class="box-principal-linha z">
+                <div class="box-principal-unico">
+                    <label for="tel" id="tel">Telefone</label>
+                    <input type="tel" name="tel" id="tel" placeholder="(xx) xxxxx-xxxx" required>
+
+                </div>
+
+                <div class="box-principal-unico box-principal-unico-segundo">
+                    <label for="address" id="address">Endereço</label>
+                    <input type="address" name="address" id="address" placeholder="Digite seu endereço" required>
+                </div>
+            </div>
+
+            <div class="box-principal-unico-texto">
+                <label for="mensagem" id="mensagem">Mensagem</label>
+                <textarea name="" id="mensagem" cols="35" rows="10" placeholder="Digite sua Mensagem"
+                    required></textarea>
+            </div>
+            <input class="botao" type="button" value="Enviar">
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
